@@ -445,6 +445,10 @@ button { font: inherit;}
   opacity: 1;
 }
 
+.color-code:focus-visible::after {
+  opacity: 1;
+}
+
 /* Efecto al pasar el mouse */
 
 .color-code:hover {
