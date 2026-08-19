@@ -110,9 +110,10 @@ README.md
 
 Contiene la documentación del proyecto.
 
-⬆️ Volver al inicio
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
 ▶️ Cómo utilizar el proyecto
+
 Abrir la aplicación.
 Seleccionar la cantidad de colores.
 Seleccionar el formato HSL o RGB / HEX.
@@ -121,7 +122,7 @@ Hacer clic sobre el código de un color para copiarlo.
 Utilizar el botón Bloqueado / Desbloqueado para conservar un color.
 Pulsar Guardar paleta para almacenarla.
 
-⬆️ Volver al inicio
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
 ⚙️ Funcionamiento
 
@@ -137,7 +138,7 @@ Actualiza la información mostrada.
 
 Si un color está bloqueado, permanece igual mientras los demás colores se regeneran.
 
-⬆️ Volver al inicio
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
 🎨 Generación de colores
 
@@ -163,7 +164,7 @@ azul.
 
 El resultado se muestra como RGB y también se calcula su equivalente HEX.
 
-⬆️ Volver al inicio
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
 🔒 Bloqueo de colores
 
@@ -179,7 +180,7 @@ Cuando un color está bloqueado, no cambia al generar una nueva paleta.
 
 Esto permite conservar un color mientras se prueban diferentes combinaciones.
 
-⬆️ Volver al inicio
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
 📋 Copiar códigos
 
@@ -199,7 +200,7 @@ Después aparece un mensaje indicando que el código fue copiado.
 
 También se contempla el uso mediante teclado utilizando el estado focus-visible.
 
-⬆️ Volver al inicio
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
 💾 Guardar paletas
 
@@ -211,7 +212,7 @@ toma los colores actualmente mostrados y los guarda utilizando localStorage.
 
 De esta manera los datos pueden mantenerse aunque se cierre o actualice el navegador.
 
-⬆️ Volver al inicio
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
 🗂️ Historial
 
@@ -227,7 +228,7 @@ botón para eliminarla.
 
 Al eliminar una paleta, también se actualiza la información almacenada en localStorage.
 
-⬆️ Volver al inicio
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
 ♿ Accesibilidad
 
@@ -248,7 +249,7 @@ También se respeta:
 
 para reducir las animaciones cuando el usuario así lo configura en su sistema.
 
-⬆️ Volver al inicio
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
 📱 Responsive
 
@@ -270,7 +271,7 @@ La paleta utiliza dos columnas y los controles ocupan el ancho disponible.
 
 También se adapta el tamaño de los botones y espacios.
 
-⬆️ Volver al inicio
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
 💾 Almacenamiento
 
@@ -284,7 +285,7 @@ const STORAGE_KEY = "paletasGuardadas";
 
 El historial se recupera cuando se vuelve a cargar la aplicación.
 
-⬆️ Volver al inicio
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
 ✨ Mejoras realizadas
 
@@ -354,7 +355,7 @@ overflow-wrap: anywhere;
 
 Esto evita que el texto se salga de la tarjeta cuando se muestran 9 colores.
 
-⬆️ Volver al inicio
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
 🔄 Flujo del proyecto
 
@@ -418,7 +419,7 @@ El funcionamiento general puede representarse de la siguiente manera:
                                   │    paleta    │
                                   └──────────────┘
 
-⬆️ Volver al inicio
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
 💻 Cómo ejecutar localmente
 
@@ -437,7 +438,7 @@ Abrir index.html en el navegador.
 
 También se puede utilizar una extensión como Live Server para visualizar los cambios automáticamente.
 
-⬆️ Volver al inicio
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
 🚀 Cómo desplegar
 
@@ -458,7 +459,7 @@ Esperar a que GitHub publique el proyecto.
 Copiar la URL proporcionada por GitHub Pages.
 Agregarla al inicio de este README.
 
-⬆️ Volver al inicio
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
 🧪 Pruebas realizadas
 
@@ -491,7 +492,7 @@ Etiquetas ARIA.
 Mensajes dinámicos.
 Reducción de movimiento.
 
-⬆️ Volver al inicio
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
 📝 Commits
 
@@ -509,7 +510,7 @@ fix: mejorar texto del botón desbloqueado
 style: mejorar diseño responsive
 docs: actualizar README
 
-⬆️ Volver al inicio
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
 👤 Autor
 
@@ -518,4 +519,4 @@ Mauricio Leonardo López Cruz
 LinkedIn
 GitHub
 
-⬆️ Volver al inicio
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
