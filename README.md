@@ -1,7 +1,7 @@
 # 🎨 Generador de paletas de colores
 
-📁 **Repositorio:**  
-[🔗 Ver proyecto en vivo](https://github.com/mllopezc-cmd/Proyecto-M1_MauricioLopez)
+🚀 **Proyecto desplegado:**  
+[🔗 Ver proyecto en vivo](https://mllopezc-cmd.github.io/Proyecto-M1_MauricioLopez/)
 
 ---
 
