@@ -112,6 +112,8 @@ Contiene la documentación del proyecto.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
+---
+
 ## ▶️ Cómo utilizar el proyecto
 
 1. Abrir la aplicación.
@@ -123,6 +125,8 @@ Contiene la documentación del proyecto.
 7. Pulsar Guardar paleta para almacenarla.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
+
+---
 
 ## ⚙️ Funcionamiento
 
@@ -139,6 +143,8 @@ Cuando se pulsa el botón Generar paleta, JavaScript:
 Si un color está bloqueado, permanece igual mientras los demás colores se regeneran.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
+
+---
 
 ## 🎨 Generación de colores
 
@@ -166,6 +172,8 @@ El resultado se muestra como RGB y también se calcula su equivalente HEX.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
+---
+
 ## 🔒 Bloqueo de colores
 
 Cada color tiene un botón:
@@ -181,6 +189,8 @@ Cuando un color está bloqueado, no cambia al generar una nueva paleta.
 Esto permite conservar un color mientras se prueban diferentes combinaciones.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
+
+---
 
 ## 📋 Copiar códigos
 
@@ -202,6 +212,8 @@ También se contempla el uso mediante teclado utilizando el estado focus-visible
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
+---
+
 ## 💾 Guardar paletas
 
 El botón:
@@ -213,6 +225,8 @@ toma los colores actualmente mostrados y los guarda utilizando localStorage.
 De esta manera los datos pueden mantenerse aunque se cierre o actualice el navegador.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
+
+---
 
 ## 🗂️ Historial
 
@@ -229,6 +243,8 @@ Cada paleta incluye:
 Al eliminar una paleta, también se actualiza la información almacenada en localStorage.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
+
+---
 
 ## ♿ Accesibilidad
 
@@ -250,6 +266,8 @@ También se respeta:
 para reducir las animaciones cuando el usuario así lo configura en su sistema.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
+
+---
 
 ## 📱 Responsive
 
@@ -273,6 +291,8 @@ También se adapta el tamaño de los botones y espacios.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
+---
+
 ## 💾 Almacenamiento
 
 Las paletas guardadas utilizan:
@@ -286,6 +306,8 @@ const STORAGE_KEY = "paletasGuardadas";
 El historial se recupera cuando se vuelve a cargar la aplicación.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
+
+---
 
 ## ✨ Mejoras realizadas
 
@@ -361,6 +383,8 @@ Esto evita que el texto se salga de la tarjeta cuando se muestran 9 colores.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
+---
+
 ## 🔄 Flujo del proyecto
 
 El funcionamiento general puede representarse de la siguiente manera:
@@ -425,6 +449,8 @@ El funcionamiento general puede representarse de la siguiente manera:
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
+---
+
 ## 💻 Cómo ejecutar localmente
 
 Para ejecutar el proyecto en Visual Studio Code:
@@ -443,6 +469,8 @@ README.md
 También se puede utilizar una extensión como Live Server para visualizar los cambios automáticamente.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
+
+---
 
 ## 🚀 Cómo desplegar
 
@@ -470,6 +498,8 @@ main
 8. Agregarla al inicio de este README.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
+
+---
 
 ## 🧪 Pruebas realizadas
 
@@ -504,6 +534,8 @@ Antes de considerar terminado el proyecto se debe comprobar:
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
+---
+
 ## 📝 Commits
 
 Se recomienda mantener commits pequeños y descriptivos.
@@ -521,6 +553,8 @@ style: mejorar diseño responsive
 docs: actualizar README
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
+
+---
 
 ## 👤 Autor
 
