@@ -1,10 +1,7 @@
 # 🎨 Generador de paletas de colores
 
-🚀 **Proyecto desplegado:**  
-👉 [Abrir Generador de paletas](https://mllopezc-cmd.github.io/Proyecto-M1_MauricioLopez/)
-
 📁 **Repositorio:**  
-👉 [Ver proyecto en GitHub](https://github.com/mllopezc-cmd/Proyecto-M1_MauricioLopez)
+[🔗 Ver proyecto en vivo](https://github.com/mllopezc-cmd/Proyecto-M1_MauricioLopez)
 
 ---
 
