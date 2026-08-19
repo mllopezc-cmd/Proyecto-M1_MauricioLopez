@@ -376,7 +376,11 @@ button { font: inherit;}
 
 /* Código del color */
 
+/* Código del color */
+
 .color-code {
+  position: relative;
+
   width: 100%;
 
   padding: 10px;
@@ -401,9 +405,53 @@ button { font: inherit;}
   cursor: pointer;
 }
 
+/* Mensaje que aparece al pasar el mouse */
+
+.color-code::after {
+  content: "Copiar";
+
+  position: absolute;
+
+  left: 50%;
+  bottom: 100%;
+
+  transform: translateX(-50%);
+
+  margin-bottom: 6px;
+
+  padding: 5px 8px;
+
+  color: #ffffff;
+  background: #222222;
+
+  border-radius: 5px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+  font-weight: normal;
+
+  opacity: 0;
+
+  pointer-events: none;
+
+  white-space: nowrap;
+
+  transition: opacity 0.2s ease;
+}
+
+/* Mostrar el mensaje */
+
+.color-code:hover::after {
+  opacity: 1;
+}
+
+/* Efecto al pasar el mouse */
+
 .color-code:hover {
   filter: brightness(0.95);
 }
+
+/* Accesibilidad */
 
 .color-code:focus-visible {
   outline: 3px solid var(--color-foco);
