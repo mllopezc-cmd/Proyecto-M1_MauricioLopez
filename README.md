@@ -542,15 +542,15 @@ Se recomienda mantener commits pequeños y descriptivos.
 
 Ejemplos utilizados durante el desarrollo:
 
-feat: agregar generación de paletas
-feat: agregar bloqueo de colores
-feat: agregar copia de códigos
-feat: agregar mensaje copiar
-feat: agregar guardado de paletas
-feat: agregar historial de paletas
-fix: mejorar texto del botón desbloqueado
-style: mejorar diseño responsive
-docs: actualizar README
+- feat: agregar generación de paletas
+- feat: agregar bloqueo de colores
+- feat: agregar copia de códigos
+- feat: agregar mensaje copiar
+- feat: agregar guardado de paletas
+- feat: agregar historial de paletas
+- fix: mejorar texto del botón desbloqueado
+- style: mejorar diseño responsive
+- docs: actualizar README
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
