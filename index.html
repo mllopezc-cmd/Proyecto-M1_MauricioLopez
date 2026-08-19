@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Generador sencillo de paletas de colores aleatorias.">
+
+  <title>Generador de paletas</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <p class="eyebrow">COLOR TOOL</p>
+
+    <h1>Generador de paletas</h1>
+
+    <p class="subtitle">Crea una paleta de colores aleatoria de forma rápida y sencilla.</p>
+  </header>
+
+  <main>
+
+    <section class="controls" aria-labelledby="configuracion-titulo">
+
+      <h2 id="configuracion-titulo">Configura tu paleta</h2>
+
+      <p id="configuracion-descripcion">Selecciona la cantidad de colores y el formato que quieres utilizar.</p>
+
+      <form id="palette-form" aria-describedby="configuracion-descripcion">
+
+        <fieldset>
+          <legend>Cantidad de colores</legend>
+
+          <label for="palette-size">Número de colores</label>
+
+          <select id="palette-size" name="palette-size">
+            <option value="6">6 colores</option>
+            <option value="8" selected>8 colores</option>
+            <option value="9">9 colores</option>
+          </select>
+        </fieldset>
+
+
+        <fieldset>
+          <legend>Formato del color</legend>
+
+          <label>
+            <input type="radio" name="color-format" value="hsl" checked>HSL
+          </label>
+
+          <label>
+            <input type="radio" name="color-format" value="rgb">RGB / HEX
+          </label>
+        </fieldset>
+
+
+        <button type="submit" id="generate-button">Generar paleta</button>
+
+      </form>
+
+    </section>
+
+    <section class="palette-section" aria-labelledby="palette-title">
+
+      <h2 id="palette-title">Tu paleta</h2>
+
+      <p id="palette-description">Haz clic en un código para copiarlo, usa el botón de cada color para bloquearlo y guarda la paleta si quieres conservarla.</p>
+
+      <p id="color-count" class="color-count" aria-live="polite"></p>
+
+      <div id="palette" class="palette" aria-describedby="palette-description">
+        <!-- JavaScript coloca aquí los colores -->
+      </div>
+
+      <button type="button" id="save-palette-button">Guardar paleta</button>
+
+    </section>
+
+    <section class="history-section" aria-labelledby="history-title">
+
+        <h2 id="history-title">Historial de paletas</h2>
+
+        <p>Aquí aparecerán las paletas que hayas guardado.</p>
+
+        <div id="palette-history" class="palette-history" aria-live="polite">
+        </div>
+
+    </section>
+
+  </main>
+
+  <p id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></p>
+
+  <footer class="site-footer">
+
+    <p>Generador de paletas creado con HTML, CSS y JavaScript.</p>
+
+    <nav class="footer-links" aria-label="Redes profesionales">
+
+        <a
+          href="https://www.linkedin.com/in/mauricio-leonardo-lopez-cruz-1a8524152/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visitar mi perfil de LinkedIn">
+          <span aria-hidden="true">in</span> LinkedIn
+        </a>
+
+        <a
+          href="https://github.com/mllopezc-cmd"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visitar mi perfil de GitHub">
+          <span aria-hidden="true">GH</span> GitHub
+        </a>
+
+    </nav>
+
+  </footer>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
