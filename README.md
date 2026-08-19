@@ -112,7 +112,7 @@ Contiene la documentación del proyecto.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
-▶️ Cómo utilizar el proyecto
+## ▶️ Cómo utilizar el proyecto
 
 Abrir la aplicación.
 Seleccionar la cantidad de colores.
@@ -124,7 +124,7 @@ Pulsar Guardar paleta para almacenarla.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
-⚙️ Funcionamiento
+## ⚙️ Funcionamiento
 
 La aplicación comienza generando automáticamente una paleta.
 
@@ -140,7 +140,7 @@ Si un color está bloqueado, permanece igual mientras los demás colores se rege
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
-🎨 Generación de colores
+## 🎨 Generación de colores
 
 El proyecto permite generar colores mediante:
 
@@ -166,7 +166,7 @@ El resultado se muestra como RGB y también se calcula su equivalente HEX.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
-🔒 Bloqueo de colores
+## 🔒 Bloqueo de colores
 
 Cada color tiene un botón:
 
@@ -182,7 +182,7 @@ Esto permite conservar un color mientras se prueban diferentes combinaciones.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
-📋 Copiar códigos
+## 📋 Copiar códigos
 
 Cada código de color funciona como un botón.
 
@@ -202,7 +202,7 @@ También se contempla el uso mediante teclado utilizando el estado focus-visible
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
-💾 Guardar paletas
+## 💾 Guardar paletas
 
 El botón:
 
@@ -214,7 +214,7 @@ De esta manera los datos pueden mantenerse aunque se cierre o actualice el naveg
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
-🗂️ Historial
+## 🗂️ Historial
 
 Las paletas guardadas aparecen en la sección:
 
@@ -230,7 +230,7 @@ Al eliminar una paleta, también se actualiza la información almacenada en loca
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
-♿ Accesibilidad
+## ♿ Accesibilidad
 
 Se incorporaron mejoras básicas de accesibilidad:
 
@@ -251,7 +251,7 @@ para reducir las animaciones cuando el usuario así lo configura en su sistema.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
-📱 Responsive
+## 📱 Responsive
 
 La aplicación se adapta a diferentes tamaños de pantalla.
 
@@ -273,7 +273,7 @@ También se adapta el tamaño de los botones y espacios.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
-💾 Almacenamiento
+## 💾 Almacenamiento
 
 Las paletas guardadas utilizan:
 
@@ -287,38 +287,42 @@ El historial se recupera cuando se vuelve a cargar la aplicación.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
-✨ Mejoras realizadas
+## ✨ Mejoras realizadas
 
 Durante el desarrollo se realizaron diferentes mejoras.
 
-1. Generación automática
+### 1. Generación automática
 
 La aplicación genera una primera paleta automáticamente al abrirse.
 
-2. Generación según cantidad
+### 2. Generación según cantidad
 
 Se añadieron opciones para generar:
 
 6 colores;
 8 colores;
-9 colores. 3. Formatos de color
+9 colores.
+
+### 3. Formatos de color
 
 Se incorporó la posibilidad de utilizar:
 
 HSL;
-RGB / HEX. 4. Bloqueo de colores
+RGB / HEX.
+
+### 4. Bloqueo de colores
 
 Los colores pueden bloquearse para conservarlos durante una nueva generación.
 
-5. Copiar códigos
+### 5. Copiar códigos
 
 Los códigos se pueden copiar haciendo clic sobre ellos.
 
-6. Mensaje "Copiar"
+### 6. Mensaje "Copiar"
 
 Se agregó una indicación visual al pasar el mouse sobre el código.
 
-7. Accesibilidad del mensaje
+### 7. Accesibilidad del mensaje
 
 También se agregó:
 
@@ -326,23 +330,23 @@ También se agregó:
 
 para mostrar el mensaje al navegar mediante teclado.
 
-8. Guardado de paletas
+### 8. Guardado de paletas
 
 Las paletas pueden almacenarse en el navegador.
 
-9. Historial
+### 9. Historial
 
 Se agregó una sección para consultar las paletas guardadas.
 
-10. Eliminación
+### 10. Eliminación
 
 Cada paleta guardada puede eliminarse individualmente.
 
-11. Responsive
+### 11. Responsive
 
 Se añadieron reglas para escritorio, tablet y móvil.
 
-12. Mejor lectura del botón de bloqueo
+### 12. Mejor lectura del botón de bloqueo
 
 El texto:
 
@@ -357,7 +361,7 @@ Esto evita que el texto se salga de la tarjeta cuando se muestran 9 colores.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
-🔄 Flujo del proyecto
+## 🔄 Flujo del proyecto
 
 El funcionamiento general puede representarse de la siguiente manera:
 
@@ -421,7 +425,7 @@ El funcionamiento general puede representarse de la siguiente manera:
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
-💻 Cómo ejecutar localmente
+## 💻 Cómo ejecutar localmente
 
 Para ejecutar el proyecto en Visual Studio Code:
 
@@ -440,7 +444,7 @@ También se puede utilizar una extensión como Live Server para visualizar los c
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
-🚀 Cómo desplegar
+## 🚀 Cómo desplegar
 
 El proyecto puede desplegarse utilizando GitHub Pages.
 
@@ -461,7 +465,7 @@ Agregarla al inicio de este README.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
-🧪 Pruebas realizadas
+## 🧪 Pruebas realizadas
 
 Antes de considerar terminado el proyecto se debe comprobar:
 
@@ -494,7 +498,7 @@ Reducción de movimiento.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
-📝 Commits
+## 📝 Commits
 
 Se recomienda mantener commits pequeños y descriptivos.
 
@@ -512,7 +516,7 @@ docs: actualizar README
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
-👤 Autor
+## 👤 Autor
 
 Mauricio Leonardo López Cruz
 
