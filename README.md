@@ -98,15 +98,15 @@ app.js
 
 Contiene toda la lógica del generador:
 
-generación de colores;
-conversión HSL a HEX;
-selección del color del texto;
-bloqueo de colores;
-copia al portapapeles;
-guardado de paletas;
-historial;
-eliminación de paletas.
-README.md
+- generación de colores;
+- conversión HSL a HEX;
+- selección del color del texto;
+- bloqueo de colores;
+- copia al portapapeles;
+- guardado de paletas;
+- historial;
+- eliminación de paletas.
+- README.md
 
 Contiene la documentación del proyecto.
 
@@ -114,13 +114,13 @@ Contiene la documentación del proyecto.
 
 ## ▶️ Cómo utilizar el proyecto
 
-Abrir la aplicación.
-Seleccionar la cantidad de colores.
-Seleccionar el formato HSL o RGB / HEX.
-Pulsar Generar paleta.
-Hacer clic sobre el código de un color para copiarlo.
-Utilizar el botón Bloqueado / Desbloqueado para conservar un color.
-Pulsar Guardar paleta para almacenarla.
+1. Abrir la aplicación.
+2. Seleccionar la cantidad de colores.
+3. Seleccionar el formato HSL o RGB.
+4. Pulsar Generar paleta.
+5. Hacer clic sobre el código de un color para copiarlo.
+6. Utilizar el botón Bloqueado / Desbloqueado para conservar un color.
+7. Pulsar Guardar paleta para almacenarla.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
@@ -130,11 +130,11 @@ La aplicación comienza generando automáticamente una paleta.
 
 Cuando se pulsa el botón Generar paleta, JavaScript:
 
-Obtiene la cantidad seleccionada.
-Comprueba el formato elegido.
-Genera colores aleatorios.
-Crea las tarjetas de colores.
-Actualiza la información mostrada.
+1. Obtiene la cantidad seleccionada.
+2. Comprueba el formato elegido.
+3. Genera colores aleatorios.
+4. Crea las tarjetas de colores.
+5. Actualiza la información mostrada.
 
 Si un color está bloqueado, permanece igual mientras los demás colores se regeneran.
 
@@ -144,23 +144,23 @@ Si un color está bloqueado, permanece igual mientras los demás colores se rege
 
 El proyecto permite generar colores mediante:
 
-HSL
+### HSL
 
 JavaScript genera:
 
-tono;
-saturación;
-luminosidad.
+- tono;
+- saturación;
+- luminosidad.
 
 Después convierte el resultado a HEX para poder determinar si el texto debe ser claro u oscuro.
 
-RGB / HEX
+### RGB
 
 Se generan valores aleatorios para:
 
-rojo;
-verde;
-azul.
+- rojo;
+- verde;
+- azul.
 
 El resultado se muestra como RGB y también se calcula su equivalente HEX.
 
@@ -222,9 +222,9 @@ Historial de paletas
 
 Cada paleta incluye:
 
-sus colores;
-códigos;
-botón para eliminarla.
+- sus colores;
+- códigos;
+- botón para eliminarla.
 
 Al eliminar una paleta, también se actualiza la información almacenada en localStorage.
 
@@ -234,14 +234,14 @@ Al eliminar una paleta, también se actualiza la información almacenada en loca
 
 Se incorporaron mejoras básicas de accesibilidad:
 
-etiquetas para los controles;
-aria-label;
-aria-live;
-aria-pressed;
-estados focus-visible;
-botones reales para acciones;
-textos alternativos mediante atributos ARIA;
-soporte básico para navegación mediante teclado.
+- etiquetas para los controles;
+- aria-label;
+- aria-live;
+- aria-pressed;
+- estados focus-visible;
+- botones reales para acciones;
+- textos alternativos mediante atributos ARIA;
+- soporte básico para navegación mediante teclado.
 
 También se respeta:
 
@@ -257,15 +257,15 @@ La aplicación se adapta a diferentes tamaños de pantalla.
 
 Se contemplan tres situaciones principales:
 
-Escritorio
+### Escritorio
 
 La paleta utiliza varias columnas.
 
-Tablet
+### Tablet
 
 La distribución se reduce para aprovechar mejor el espacio.
 
-Móvil
+### Móvil
 
 La paleta utiliza dos columnas y los controles ocupan el ancho disponible.
 
@@ -308,7 +308,7 @@ Se añadieron opciones para generar:
 Se incorporó la posibilidad de utilizar:
 
 HSL;
-RGB / HEX.
+RGB.
 
 ### 4. Bloqueo de colores
 
@@ -429,16 +429,16 @@ El funcionamiento general puede representarse de la siguiente manera:
 
 Para ejecutar el proyecto en Visual Studio Code:
 
-Descargar o clonar el repositorio.
-Abrir la carpeta del proyecto en Visual Studio Code.
-Verificar que existan:
+1. Descargar o clonar el repositorio.
+2. Abrir la carpeta del proyecto en Visual Studio Code.
+3. Verificar que existan:
 
 index.html
 styles.css
 app.js
 README.md
 
-Abrir index.html en el navegador.
+4. Abrir index.html en el navegador.
 
 También se puede utilizar una extensión como Live Server para visualizar los cambios automáticamente.
 
@@ -450,18 +450,24 @@ El proyecto puede desplegarse utilizando GitHub Pages.
 
 Pasos generales:
 
-Subir el proyecto a GitHub.
-Entrar en:
+1. Subir el proyecto a GitHub.
+2. Entrar en:
+
 Settings
 → Pages
-Seleccionar la rama principal, normalmente:
+
+3. Seleccionar la rama principal, normalmente:
+
 main
-Seleccionar la carpeta:
+
+4. Seleccionar la carpeta:
+
 /root
-Guardar la configuración.
-Esperar a que GitHub publique el proyecto.
-Copiar la URL proporcionada por GitHub Pages.
-Agregarla al inicio de este README.
+
+5. Guardar la configuración.
+6. Esperar a que GitHub publique el proyecto.
+7. Copiar la URL proporcionada por GitHub Pages.
+8. Agregarla al inicio de este README.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
@@ -469,32 +475,32 @@ Agregarla al inicio de este README.
 
 Antes de considerar terminado el proyecto se debe comprobar:
 
-Generación
-La aplicación genera una paleta al iniciar.
-El botón "Generar paleta" funciona.
-Se pueden generar 6 colores.
-Se pueden generar 8 colores.
-Se pueden generar 9 colores.
-HSL funciona.
-RGB / HEX funciona.
-Interacción
-Se puede bloquear un color.
-El color bloqueado permanece al regenerar.
-Se puede copiar un código.
-Aparece el mensaje "Copiar".
-Aparece el mensaje de confirmación.
-Se puede guardar una paleta.
-Se puede eliminar una paleta.
-Responsive
-Escritorio.
-Tablet.
-Móvil.
-Accesibilidad
-Navegación mediante teclado.
-Estados de foco.
-Etiquetas ARIA.
-Mensajes dinámicos.
-Reducción de movimiento.
+- Generación
+- La aplicación genera una paleta al iniciar.
+- El botón "Generar paleta" funciona.
+- Se pueden generar 6 colores.
+- Se pueden generar 8 colores.
+- Se pueden generar 9 colores.
+- HSL funciona.
+- RGB funciona.
+- Interacción
+- Se puede bloquear un color.
+- El color bloqueado permanece al regenerar.
+- Se puede copiar un código.
+- Aparece el mensaje "Copiar".
+- Aparece el mensaje de confirmación.
+- Se puede guardar una paleta.
+- Se puede eliminar una paleta.
+- Responsive
+- Escritorio.
+- Tablet.
+- Móvil.
+- Accesibilidad
+- Navegación mediante teclado.
+- Estados de foco.
+- Etiquetas ARIA.
+- Mensajes dinámicos.
+- Reducción de movimiento.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
@@ -518,9 +524,9 @@ docs: actualizar README
 
 ## 👤 Autor
 
-Mauricio Leonardo López Cruz
+### Mauricio Leonardo López Cruz
 
-LinkedIn
-GitHub
+- LinkedIn
+- GitHub
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
