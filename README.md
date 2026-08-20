@@ -79,14 +79,18 @@ El proyecto utiliza tecnologías web básicas:
 
 ## 📁 Estructura del proyecto
 
-```text
-generador-paletas/
+Proyecto-M1_MauricioLopez/
 │
 ├── index.html
 ├── styles.css
 ├── app.js
-└── README.md
-```
+├── README.md
+│
+└── documentación/
+├── README.md
+├── capturas/
+├── gifs/
+└── IA/
 
 ### index.html
 
