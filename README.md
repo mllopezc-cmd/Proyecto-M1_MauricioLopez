@@ -98,15 +98,15 @@ Contiene los estilos, diseño responsive, colores, botones, tarjetas y reglas de
 
 Contiene toda la lógica del generador:
 
-- generación de colores;
-- conversión HSL a HEX;
-- selección del color del texto;
-- bloqueo de colores;
-- copia al portapapeles;
-- guardado de paletas;
-- historial;
-- eliminación de paletas.
-- README.md
+1. generación de colores;
+2. conversión HSL a HEX;
+3. selección del color del texto;
+4. bloqueo de colores;
+5. copia al portapapeles;
+6. guardado de paletas;
+7. historial;
+8. eliminación de paletas.
+9. README.md
 
 Contiene la documentación del proyecto.
 
