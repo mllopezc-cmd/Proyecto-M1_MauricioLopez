@@ -86,15 +86,15 @@ generador-paletas/
 └── README.md
 ```
 
-index.html
+### index.html
 
 Contiene la estructura y los elementos visibles de la aplicación.
 
-styles.css
+### styles.css
 
 Contiene los estilos, diseño responsive, colores, botones, tarjetas y reglas de accesibilidad visual.
 
-app.js
+### app.js
 
 Contiene toda la lógica del generador:
 
@@ -128,7 +128,7 @@ Contiene la documentación del proyecto.
 
 ---
 
-## ⚙️ Funcionamiento
+## Funcionamiento
 
 La aplicación comienza generando automáticamente una paleta.
 
@@ -228,7 +228,7 @@ De esta manera los datos pueden mantenerse aunque se cierre o actualice el naveg
 
 ---
 
-## 🗂️ Historial
+## Historial
 
 Las paletas guardadas aparecen en la sección:
 
