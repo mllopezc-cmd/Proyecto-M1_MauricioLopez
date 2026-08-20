@@ -1,7 +1,6 @@
 # 🎨 Generador de paletas de colores
 
-🚀 **Proyecto desplegado:**  
-[🔗 Ver proyecto en vivo](https://mllopezc-cmd.github.io/Proyecto-M1_MauricioLopez/)
+(https://mllopezc-cmd.github.io/Proyecto-M1_MauricioLopez/)
 
 ---
 
@@ -106,7 +105,8 @@ Contiene toda la lógica del generador:
 6. guardado de paletas;
 7. historial;
 8. eliminación de paletas.
-9. README.md
+
+### README.md
 
 Contiene la documentación del proyecto.
 
@@ -562,5 +562,19 @@ Ejemplos utilizados durante el desarrollo:
 
 - LinkedIn
 - GitHub
+
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
+
+## 📚 Documentación adicional
+
+Toda la documentación complementaria se encuentra en la carpeta
+[`docs/`](docs/).
+
+### Contenido
+
+- [Índice de documentación](docs/indice.md)
+- [Documentación del uso de IA](docs/ia/prompts.md)
+- [Capturas del proyecto](docs/capturas/)
+- [GIF del flujo principal](docs/gifs/)
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
