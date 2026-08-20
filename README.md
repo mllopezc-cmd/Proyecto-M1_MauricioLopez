@@ -7,24 +7,13 @@
 ## 📚 Índice
 
 - [Descripción](#-descripción)
-- [Objetivo](#-objetivo)
+- [Cómo utilizar el proyecto](#-cómo-utilizar-el-proyecto)
+- [Funcionalidades](#-funcionalidades)
 - [Tecnologías utilizadas](#-tecnologías-utilizadas)
 - [Estructura del proyecto](#-estructura-del-proyecto)
-- [Cómo utilizar el proyecto](#-cómo-utilizar-el-proyecto)
-- [Funcionamiento](#-funcionamiento)
-- [Generación de colores](#-generación-de-colores)
-- [Bloqueo de colores](#-bloqueo-de-colores)
-- [Copiar códigos](#-copiar-códigos)
-- [Guardar paletas](#-guardar-paletas)
-- [Historial](#-historial)
-- [Accesibilidad](#-accesibilidad)
-- [Responsive](#-responsive)
-- [Almacenamiento](#-almacenamiento)
-- [Mejoras realizadas](#-mejoras-realizadas)
 - [Flujo del proyecto](#-flujo-del-proyecto)
 - [Cómo ejecutar localmente](#-cómo-ejecutar-localmente)
 - [Cómo desplegar](#-cómo-desplegar)
-- [Pruebas realizadas](#-pruebas-realizadas)
 - [Commits](#-commits)
 - [Autor](#-autor)
 
@@ -40,19 +29,33 @@ La aplicación permite generar paletas utilizando diferentes cantidades de color
 
 ---
 
-## 🎯 Objetivo
+## ▶️ Cómo utilizar el proyecto
 
-El objetivo del proyecto es crear una aplicación web sencilla que permita:
+1. Abrir la aplicación.
+2. Seleccionar la cantidad de colores.
+3. Seleccionar el formato HSL o RGB.
+4. Pulsar Generar paleta.
+5. Hacer clic sobre el código de un color para copiarlo.
+6. Utilizar el botón Bloqueado / Desbloqueado para conservar un color.
+7. Pulsar Guardar paleta para almacenarla.
 
-- Generar colores aleatorios.
-- Crear paletas de diferentes tamaños.
-- Utilizar formatos HSL y RGB / HEX.
-- Bloquear colores.
-- Copiar códigos de colores.
-- Guardar paletas.
-- Consultar paletas guardadas.
-- Eliminar paletas del historial.
-- Mantener una interfaz responsive y accesible.
+[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
+
+---
+
+## Funcionalidades
+
+La aplicación comienza generando automáticamente una paleta.
+
+Cuando se pulsa el botón Generar paleta, JavaScript:
+
+1. Obtiene la cantidad seleccionada.
+2. Comprueba el formato elegido.
+3. Genera colores aleatorios.
+4. Crea las tarjetas de colores.
+5. Actualiza la información mostrada.
+
+Si un color está bloqueado, permanece igual mientras los demás colores se regeneran.
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
 
@@ -110,42 +113,6 @@ Contiene toda la lógica del generador:
 
 Contiene la documentación del proyecto.
 
-[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
-
----
-
-## ▶️ Cómo utilizar el proyecto
-
-1. Abrir la aplicación.
-2. Seleccionar la cantidad de colores.
-3. Seleccionar el formato HSL o RGB.
-4. Pulsar Generar paleta.
-5. Hacer clic sobre el código de un color para copiarlo.
-6. Utilizar el botón Bloqueado / Desbloqueado para conservar un color.
-7. Pulsar Guardar paleta para almacenarla.
-
-[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
-
----
-
-## Funcionamiento
-
-La aplicación comienza generando automáticamente una paleta.
-
-Cuando se pulsa el botón Generar paleta, JavaScript:
-
-1. Obtiene la cantidad seleccionada.
-2. Comprueba el formato elegido.
-3. Genera colores aleatorios.
-4. Crea las tarjetas de colores.
-5. Actualiza la información mostrada.
-
-Si un color está bloqueado, permanece igual mientras los demás colores se regeneran.
-
-[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
-
----
-
 ## 🎨 Generación de colores
 
 El proyecto permite generar colores mediante:
@@ -170,10 +137,6 @@ Se generan valores aleatorios para:
 
 El resultado se muestra como RGB y también se calcula su equivalente HEX.
 
-[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
-
----
-
 ## 🔒 Bloqueo de colores
 
 Cada color tiene un botón:
@@ -187,10 +150,6 @@ Al pulsarlo cambia a:
 Cuando un color está bloqueado, no cambia al generar una nueva paleta.
 
 Esto permite conservar un color mientras se prueban diferentes combinaciones.
-
-[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
-
----
 
 ## 📋 Copiar códigos
 
@@ -210,10 +169,6 @@ Después aparece un mensaje indicando que el código fue copiado.
 
 También se contempla el uso mediante teclado utilizando el estado focus-visible.
 
-[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
-
----
-
 ## 💾 Guardar paletas
 
 El botón:
@@ -223,10 +178,6 @@ Guardar paleta
 toma los colores actualmente mostrados y los guarda utilizando localStorage.
 
 De esta manera los datos pueden mantenerse aunque se cierre o actualice el navegador.
-
-[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
-
----
 
 ## Historial
 
@@ -241,10 +192,6 @@ Cada paleta incluye:
 - botón para eliminarla.
 
 Al eliminar una paleta, también se actualiza la información almacenada en localStorage.
-
-[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
-
----
 
 ## ♿ Accesibilidad
 
@@ -264,10 +211,6 @@ También se respeta:
 @media (prefers-reduced-motion: reduce)
 
 para reducir las animaciones cuando el usuario así lo configura en su sistema.
-
-[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
-
----
 
 ## 📱 Responsive
 
@@ -289,10 +232,6 @@ La paleta utiliza dos columnas y los controles ocupan el ancho disponible.
 
 También se adapta el tamaño de los botones y espacios.
 
-[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
-
----
-
 ## 💾 Almacenamiento
 
 Las paletas guardadas utilizan:
@@ -304,10 +243,6 @@ La información se almacena utilizando la clave:
 const STORAGE_KEY = "paletasGuardadas";
 
 El historial se recupera cuando se vuelve a cargar la aplicación.
-
-[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
-
----
 
 ## ✨ Mejoras realizadas
 
@@ -501,41 +436,6 @@ main
 
 ---
 
-## 🧪 Pruebas realizadas
-
-Antes de considerar terminado el proyecto se debe comprobar:
-
-- Generación
-- La aplicación genera una paleta al iniciar.
-- El botón "Generar paleta" funciona.
-- Se pueden generar 6 colores.
-- Se pueden generar 8 colores.
-- Se pueden generar 9 colores.
-- HSL funciona.
-- RGB funciona.
-- Interacción
-- Se puede bloquear un color.
-- El color bloqueado permanece al regenerar.
-- Se puede copiar un código.
-- Aparece el mensaje "Copiar".
-- Aparece el mensaje de confirmación.
-- Se puede guardar una paleta.
-- Se puede eliminar una paleta.
-- Responsive
-- Escritorio.
-- Tablet.
-- Móvil.
-- Accesibilidad
-- Navegación mediante teclado.
-- Estados de foco.
-- Etiquetas ARIA.
-- Mensajes dinámicos.
-- Reducción de movimiento.
-
-[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
-
----
-
 ## 📝 Commits
 
 Se recomienda mantener commits pequeños y descriptivos.
@@ -562,19 +462,5 @@ Ejemplos utilizados durante el desarrollo:
 
 - LinkedIn
 - GitHub
-
-[⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
-
-## 📚 Documentación adicional
-
-Toda la documentación complementaria se encuentra en la carpeta
-[`docs/`](docs/).
-
-### Contenido
-
-- [Índice de documentación](docs/indice.md)
-- [Documentación del uso de IA](docs/ia/prompts.md)
-- [Capturas del proyecto](docs/capturas/)
-- [GIF del flujo principal](docs/gifs/)
 
 [⬆️ Volver al inicio](#-generador-de-paletas-de-colores)
